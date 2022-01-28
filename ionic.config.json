@@ -1,0 +1,7 @@
+{
+  "name": "ukb-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
