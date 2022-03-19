@@ -5,7 +5,9 @@ import { Component } from "@angular/core";
     styleUrls: ['login.page.scss'],
     templateUrl: 'login.page.html'
 })
-export class LoginPage
-{
-    constructor() {}
+export class LoginPage {
+    constructor() { }
+
+    public login(account: string | number, password: string | number): void {
+    }
 }

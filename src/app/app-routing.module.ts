@@ -12,6 +12,10 @@ const routes: Routes = [
     path: '',
     redirectTo: 'login',
     pathMatch: 'full'
+  },
+  {
+    path: 'leaves',
+    loadChildren: () => import('./pages/student/leaves/leaves.module').then( m => m.LeavesPageModule)
   }
 ];
 
