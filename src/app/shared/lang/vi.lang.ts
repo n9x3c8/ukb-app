@@ -1,0 +1,1 @@
+export const CURRENTLY_LOGGED: string = 'Đang đăng nhập...';
